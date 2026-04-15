@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Production | Dralha Group</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p+Yy9Pd3wFggAa9n8FAzdf0L2N71GBrixLwcTnP1AfHQRKpfrdwCOAE6vm/MgO+jle9jMqQmPcKxS7jUoUv+0Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="page-wrapper">
+    <img src="btbflag.png" alt="Bhutan Flag" class="btb-flag" />
+    <header id="header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">
+          <img src="DRALHA.jpeg" alt="Dralha Group of Industries logo" class="logo-image" />
+          <span>Dralha Group<br>
+            <strong style="font-size: 0.7em;">of Industries</strong>
+          </span>
+        </a>
+        <nav id="nav" aria-label="Primary navigation">
+          <a href="index.html#home">Home</a>
+
+          <div class="nav-item about-dropdown">
+            <a href="#" class="dropdown-toggle">About Us <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="about.html">About</a>
+              <a href="vision-mission.html">Vision and Mission</a>
+              <a href="achievements-milestones.html">Achievements and Milestones</a>
+              <a href="bhutan-dralha-news.html">Bhutan Dralha News</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="video.html">Video</a>
+            </div>
+          </div>
+
+          <div class="nav-item services-dropdown">
+            <a href="#" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="food-production.html">Dralha Flour Mill</a>
+              <a href="hospitality.html">Hotel Dralha</a>
+              <a href="hygiene-manufacturing.html">Dralha Napkin Factory</a>
+              <a href="sustainable-bamboo.html">Dralha Bamboo Revolution</a>
+            </div>
+          </div>
+          <a href="teams.html">Teams</a>
+          <a href="contact.html">Contact</a>
+
+          <div class="nav-item bhutan-dropdown">
+            <a href="#" class="dropdown-toggle">Bhutan Case Study <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="webinars-achievements.html">Webinars / Achievements</a>
+              <a href="explants-inplants.html">Explants / Inplants</a>
+              <a href="online-help-desk.html">Online Help Desk</a>
+            </div>
+          </div>
+
+          <div class="nav-item project-dropdown">
+            <a href="#" class="dropdown-toggle">Project <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="services.html">Ongoing Project</a>
+              <a href="sustainable-bamboo.html">Future Project</a>
+              <a href="bhutan-market-place.html">Bhutan Market Place</a>
+              <a href="investment.html">Investment</a>
+            </div>
+          </div>
+
+          <a href="gpms.html">GPMS</a>
+
+          <div class="header-actions">
+            <span class="logout-section">
+              <button onclick="logout()" style="background:none;border:none;color:var(--accent);font-weight:600;cursor:pointer;display:none;" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+            </span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="cards">
+        <center>
+          <h1>Dralha Flour Mill</h1>
+        </center>
+      </section>
+      <section class="hero-slider">
+        <div class="slider-container">
+          <!-- Slide 1 -->
+          <div class="slide active" style="background-image: url('Dralha-Flour-Mill-Images-1.jpeg');">
+            <div class="slide-content">
+              <span class="eyebrow">Pioneer Since 1988</span>
+              <h2>Bhutan Flour Mill Leader</h2>
+              <p>Bhutan&rsquo;s only flour mill with 100 TPD capacity</p>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide" style="background-image: url('Dralha-Flour-Mill-Images-2.jpeg');">
+            <div class="slide-content">
+              <span class="eyebrow">Modern Technology</span>
+              <h2>Advanced Processing</h2>
+              <p>Precision roller systems &amp; quality control</p>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="slide" style="background-image: url('Dralha-Flour-Mill-Images-3.jpeg');">
+            <div class="slide-content">
+              <span class="eyebrow">Export Ready</span>
+              <h2>Global Quality Standards</h2>
+              <p>Serving Bhutan, India, Bangladesh markets</p>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="slide" style="background-image: url('Dralha-Flour-Mill-Images-4.jpeg');">
+            <div class="slide-content">
+              <span class="eyebrow">Phuentsholing Plant</span>
+              <h2>Industrial Excellence</h2>
+              <p>Strategic location for regional exports</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-dots">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+          <span class="dot" data-slide="3"></span>
+        </div>
+        <button class="slider-arrow prev">&lsaquo;</button>
+        <button class="slider-arrow next">&rsaquo;</button>
+      </section>
+
+      <section class="cards">
+        <div class="container">
+          <h1>Food Production</h1>
+          <p>Dralha Flour Mill, established in 1988, stands as the pioneering flour mill in Bhutan, setting an exemplary standard within the country's flour production industry. As the only flour mill operating in the Kingdom, the company has played a critical role in fulfilling domestic demand for high-quality flour products.</p>
+          </div>
+          <div class="grid service-grid">
+            <article class="card">
+              <h3>Core Products</h3>
+              <p>Atta (Whole Wheat Flour), Maida (Refined Flour), Suji (Semolina), Wheat Bran</p>
+            </article>
+            <article class="card">
+              <h3>Export Markets</h3>
+              <p>Serving Bhutan, India, and Bangladesh with reliable supply chain</p>
+            </article>
+            <article class="card">
+              <h3>Future Plans</h3>
+              <p>Wheat-based cookies, healthy cereals, bread unit, noodle production</p>
+            </article>
+            <article class="card">
+              <h3>Competitive Edge</h3>
+              <p>Bhutan&rsquo;s low electricity tariffs enable cost efficiency for exports</p>
+            </article>
+          </div>
+          <a href="services.html" class="button secondary">Back to Services</a>
+          <a href="contact.html" class="button primary">Get Quote</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container footer-inner">
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p><i class="fas fa-map-marker-alt footer-icon" aria-hidden="true"></i>Industrial Estate, Phuentsholing, Bhutan</p>
+          <p><i class="fas fa-envelope footer-icon" aria-hidden="true"></i><a href="mailto:info@dralhagroup.bt">info@dralhagroup.bt</a></p>
+          <p><i class="fas fa-phone footer-icon" aria-hidden="true"></i><a href="tel:+97517123456">+975 17 123 456</a></p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a><br />
+          <a href="about.html">About</a><br />
+          <a href="services.html">Services</a><br />
+          <a href="contact.html">Contact</a><br />
+          <a href="teams.html">Teams</a>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <a href="https://www.facebook.com/dralhagroup" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f footer-icon" aria-hidden="true"></i>Facebook</a><br />
+          <a href="https://www.linkedin.com/company/dralha-group" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in footer-icon" aria-hidden="true"></i>LinkedIn</a><br />
+          <a href="https://www.instagram.com/dralhagroup" target="_blank" rel="noreferrer"><i class="fab fa-instagram footer-icon" aria-hidden="true"></i>Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p style="color: var(--text-soft);">© 2026 Dralha Group of Industries. All rights reserved.</p>
+
+      </div>
+    </footer>
+    <!-- Powered by Google Translate -->
+    <div id="google_translate_element" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+      // Simple CSS/JS Slider - copied from index.html
+      class HeroSlider {
+        constructor() {
+          this.currentSlide = 0;
+          this.totalSlides = 4;
+          this.autoPlayId = null;
+          this.isPaused = false;
+          this.init();
+        }
+
+        init() {
+          const slides = document.querySelectorAll('.hero-slider .slide');
+          const dots = document.querySelectorAll('.slider-dots .dot');
+          const prevBtn = document.querySelector('.slider-arrow.prev');
+          const nextBtn = document.querySelector('.slider-arrow.next');
+          const container = document.querySelector('.hero-slider');
+
+          // Event listeners
+          dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => this.goToSlide(index));
+          });
+          prevBtn.addEventListener('click', () => this.prevSlide());
+          nextBtn.addEventListener('click', () => this.nextSlide());
+          container.addEventListener('mouseenter', () => this.pause());
+          container.addEventListener('mouseleave', () => this.play());
+
+          this.updateSlider();
+          this.play();
+        }
+
+        goToSlide(n) {
+          document.querySelector('.hero-slider .slide.active').classList.remove('active');
+          document.querySelector('.slider-dots .dot.active').classList.remove('active');
+          document.querySelectorAll('.hero-slider .slide')[n].classList.add('active');
+          document.querySelectorAll('.slider-dots .dot')[n].classList.add('active');
+          this.currentSlide = n;
+        }
+
+        nextSlide() {
+          this.goToSlide((this.currentSlide + 1) % this.totalSlides);
+        }
+
+        prevSlide() {
+          this.goToSlide((this.currentSlide - 1 + this.totalSlides) % this.totalSlides);
+        }
+
+        updateSlider() {
+          document.querySelector('.hero-slider .slide.active')?.classList.remove('active');
+          document.querySelector('.slider-dots .dot.active')?.classList.remove('active');
+          document.querySelectorAll('.hero-slider .slide')[this.currentSlide].classList.add('active');
+          document.querySelectorAll('.slider-dots .dot')[this.currentSlide].classList.add('active');
+        }
+
+        play() {
+          this.isPaused = false;
+          this.autoPlayId = setInterval(() => {
+            if (!this.isPaused) this.nextSlide();
+          }, 5000);
+        }
+
+        pause() {
+          this.isPaused = true;
+          if (this.autoPlayId) clearInterval(this.autoPlayId);
+        }
+      }
+
+      // Initialize slider when DOM loads
+      document.addEventListener('DOMContentLoaded', () => {
+        new HeroSlider();
+      });
+    </script>
+  </div>
+</body>
+</html>

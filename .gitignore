@@ -1,0 +1,24 @@
+# VSCode
+.vscode/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Images generated
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
